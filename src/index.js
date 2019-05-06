@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
+import Routes from "./routes.js";
+import { StatusBar } from "react-native";
 
-import '~/config/ReactotronConfig';
+const src = () => (
+  <>
+    <StatusBar barStyle="light-content" backgroundColor="#8B10AE" />
+    <Routes />
+  </>
+);
 
-import Routes from '~/routes';
-
-const App = () => <Routes />;
-
-export default App;
+export default src;
