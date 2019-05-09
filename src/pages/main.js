@@ -16,7 +16,6 @@ export default function Main() {
     <View style={styles.container}>
       <Header />
       <Card style={styles.card} />
-
       <Tabs />
     </View>
   );
